@@ -22,6 +22,6 @@ app.get("/unirse", (req, res) => {
   res.send(id)
 })
 
-app.listen(8080, () => {
+app.listen(3000, () => {
   console.log("Servidor funcionando")
 })
